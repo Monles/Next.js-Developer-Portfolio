@@ -5,6 +5,7 @@ import profilePic from '../../public/images/profile/developer-pic-3.png'
 import AnimatedText from '@/components/AnimatedText'
 import Link from 'next/link'
 import { LinkArrow } from '@/components/Icons'
+import HireMe from '@/components/HireMe'
 
 export default function Home() {
   return (
@@ -44,7 +45,7 @@ export default function Home() {
                   <LinkArrow className={'w-6 ml-1'} />
                 </Link>
                 <Link
-                  href='mailto:abc@gmail.com'
+                  href='mailto:monlesyen@gmail.com'
                   target={'_blank'}
                   className='ml-4 text-lg font-medium capitalize text-dark underline'>
                   Contact
@@ -53,6 +54,7 @@ export default function Home() {
             </div>
           </div>
         </Layout>
+        <HireMe />
       </main>
     </>
   )
