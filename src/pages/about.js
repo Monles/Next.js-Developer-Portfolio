@@ -40,12 +40,27 @@ const about = () => {
                 your next project.
               </p>
             </div>
-            <div className='col-span-3 relative'>
+            <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
+              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
               <Image
                 src={profilePic}
                 alt='Yen'
                 className='w-full h-auto rounded-2xl'
               />
+            </div>
+            <div className='col-span-2 flex flex-col items-end justify-between'>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>50+</span>
+                <h2>satisfied clients</h2>
+              </div>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>40+</span>
+                <h2>projects completed</h2>
+              </div>
+              <div className='flex flex-col items-end justify-center'>
+                <span className='inline-block text-7xl font-bold'>4+</span>
+                <h2>years of experience</h2>
+              </div>
             </div>
           </div>
         </Layout>
