@@ -48,11 +48,11 @@ const about = () => {
                 Biography
               </h2>
               <p className='font-medium'>
-                Hi, I&apos;m Yen, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m Yen, profeesional at web developement and UI/UX
+                designer with a passion for creating beautiful, functional, and
+                user-centered digital experiences. With 3 years of experience in
+                the field. I am always looking for new and innovative ways to
+                bring my clients&apos; visions to life.
               </p>
               <p className='my-4 font-medium'>
                 I believe that design is about more than just making things look
@@ -78,7 +78,7 @@ const about = () => {
             <div className='col-span-2 flex flex-col items-end justify-between'>
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
-                  <AnimatedNumbers value={50} />
+                  <AnimatedNumbers value={50} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
                   satisfied clients
@@ -86,7 +86,7 @@ const about = () => {
               </div>
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
-                  <AnimatedNumbers value={40} />
+                  <AnimatedNumbers value={40} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
                   projects completed
@@ -94,7 +94,7 @@ const about = () => {
               </div>
               <div className='flex flex-col items-end justify-center'>
                 <span className='inline-block text-7xl font-bold'>
-                  <AnimatedNumbers value={3} />
+                  <AnimatedNumbers value={3} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
                   years of experience
