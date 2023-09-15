@@ -3,14 +3,13 @@ import { motion } from 'framer-motion'
 
 const quote = {
   initial: {
-    opacity: 0,
-    y: 30,
+    opacity: 1,
   },
   animate: {
     opacity: 1,
-    y: 0,
     transition: {
-      delay: 0.35,
+      delay: 0.5,
+      staggerChildren: 0.08,
     },
   },
 }
@@ -36,14 +35,12 @@ const AnimatedText = ({ text, className = '' }) => {
         initial='initial'
         animate='animate'>
         {text.split(' ').map((word, index) => (
-          <span
+          <motion.span
             key={word + '-' + index}
             className='inline-block'
-            variants={singleWord}
-            initial='initial'
-            animate='animate'>
+            variants={singleWord}>
             {word}&nbsp;
-          </span>
+          </motion.span>
         ))}
       </motion.h1>
     </div>
